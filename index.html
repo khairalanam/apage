@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7ef3aa74d6.js" crossorigin="anonymous"></script>
+    <title>Befikra</title>
+</head>
+
+<body>
+    <header>
+        <h2>
+            <hi>&#60;</hi> &nbsp; New Post</h2>
+    </header>
+
+    <section class="title-section">
+        <ul class="main-list">
+            <li class="main-titles">
+                <h3>Title</h3>
+            </li>
+            <li>
+                <ul class="nested-list">
+                    <li>Required</li>
+                    <li>title</li>
+                </ul>
+            </li>
+        </ul>
+        <h5>Title must not exceed 100 characters</h5>
+        <input type="text" placeholder="Title" class="input-field">
+        <ul class="sub-list">
+            <li>0 characters</li>
+            <li>Requires between 15 and 100 characters</li>
+        </ul>
+    </section>
+
+    <section class="slug-section">
+        <ul class="main-list">
+            <li class="main-titles">
+                <h3>Slug</h3>
+            </li>
+            <li>
+                <ul class="nested-list">
+                    <li>Clear</li>
+                    <li>Unique</li>
+                </ul>
+            </li>
+        </ul>
+        <h5>*Add the title *Remove the spaces with "-"</h5>
+        <input type="text" class="input-field">
+    </section>
+
+    <section class="cover-image-section">
+        <ul class="main-list">
+            <li class="main-titles">
+                <h3>Cover Image</h3>
+            </li>
+            <li>
+                <ul class="nested-list">
+                    <li id="required-tag">Required</li>
+                </ul>
+            </li>
+        </ul>
+        <h5>Upload or select a cover image as your featured image</h5>
+        <div><a href=""><i class="fa-solid fa-link-horizontal"></i> Add existing cover image</a></div>
+    </section>
+
+    <section class="author-section">
+        <h3>Author</h3>
+        <h5>Who should be credited with writing this post?</h5>
+        <ul class="sub-list">
+            <li><a href=""><i class="fa-solid fa-link-simple"></i> Add existing author</a></li>
+            <li><a href=""><i class="fa-solid fa-plus-large"></i> Create & Add new author</a></li>
+        </ul>
+    </section>
+
+    <section class="tags-section">
+        <ul class="main-list">
+            <li class="main-titles">
+                <h3>Tags</h3>
+            </li>
+            <li>
+                <ul class="nested-list">
+                    <li>Clear all</li>
+                    <li>Required</li>
+                </ul>
+            </li>
+        </ul>
+        <h5>Add any relevant tags to this post</h5>
+        <input type="text" placeholder="Tags" class="input-field">
+        <button>Add to list</button>
+    </section>
+</body>
+
+</html>
